@@ -11,7 +11,7 @@ const Calendar = () => {
 
   return(
     <Fragment>
-      <p>Selected Month: {`${monthNames[selectedDate.getMonth()]} - ${selectedDate.getFullYear()}`}</p>
+      <p>Selectionner le mois: {`${monthNames[selectedDate.getMonth()]} - ${selectedDate.getFullYear()}`}</p>
       <table className="table">
         <thead>
           <tr>

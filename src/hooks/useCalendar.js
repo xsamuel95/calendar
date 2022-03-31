@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 const daysShortArr = [
-  'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'
+  'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sa', 'Di'
 ];
 
 const monthNamesArr = [
-  'January', 'February', 'March', 'April',
-  'May', 'June', 'July', 'August',
-  'September', 'October', 'November', 'December'
+  'Janvier', 'Fevrier', 'Mars', 'Avril',
+  'Mai', 'Juin', 'Juillet', 'Aout',
+  'Septembre', 'Octobre', 'Novembre', 'Decembre'
 ];
 
 const useCalendar = (daysShort = daysShortArr, monthNames = monthNamesArr) => {
